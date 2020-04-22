@@ -287,42 +287,6 @@ th {
 
 
 
-@font-face {
-	font-display: swap;
-	font-family: "GothamProBlack";
-	src: url("fonts/GothamProBlack.eot");
-	src: url("fonts/GothamProBlack-1.eot")format("embedded-opentype"),
-	url("fonts/GothamProBlack.woff") format("woff"),
-	url("fonts/GothamProBlack.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-
-
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('fonts/glyphicons-halflings-regular.eot');
-  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
-
-
-
-@font-face {
-	font-display: swap;
-	font-family: "GothamProBold";
-	src: url("fonts/GothamProBold.eot");
-	src: url("fonts/GothamProBold-1.eot")format("embedded-opentype"),
-	url("fonts/GothamProBold.woff") format("woff"),
-	url("fonts/GothamProBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-
 .glyphicon {
   position: relative;
   top: 1px;
@@ -617,7 +581,7 @@ th {
 .glyphicon-ok-circle:before {
   content: "\e089";
 }
-.glyphicon-ban-circle:before {
+.glyphicon-ban-circle:before { 
   content: "\e090";
 }
 .glyphicon-arrow-left:before {
@@ -9394,7 +9358,7 @@ section {
         width: 11px;
         height: 7px;
         margin: 0 0 0 8px;
-        background: url("//avostudio.ru/wp-content/themes/avostudio/images/arrow-down.png") no-repeat center;
+        background: url("/wp-content/images/arrow-down.png") no-repeat center;
         -webkit-transition: 0.3s ease;
         transition: 0.3s ease; }
         @media (max-width: 1200px) {

@@ -278,48 +278,13 @@ th {
 	font-family: "ALSRuoble";
 	src: url("fonts/als_ruoble.eot");
 	src: url("fonts/als_ruoble-1.eot")format("embedded-opentype"),
-	url("fonts/als_ruoble.woff") format("woff"),
+	url("../fonts/als_ruoble.woff") format("woff"),
 	url("fonts/als_ruoble.svg") format("svg"),
-	url("fonts/als_ruoble.ttf") format("truetype");
+	url("../fonts/als_ruoble.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 
-
-
-@font-face {
-	font-display: swap;
-	font-family: "GothamProBlack";
-	src: url("fonts/GothamProBlack.eot");
-	src: url("fonts/GothamProBlack-1.eot")format("embedded-opentype"),
-	url("fonts/GothamProBlack.woff") format("woff"),
-	url("fonts/GothamProBlack.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-
-
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('fonts/glyphicons-halflings-regular.eot');
-  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
-
-
-
-@font-face {
-	font-display: swap;
-	font-family: "GothamProBold";
-	src: url("fonts/GothamProBold.eot");
-	src: url("fonts/GothamProBold-1.eot")format("embedded-opentype"),
-	url("fonts/GothamProBold.woff") format("woff"),
-	url("fonts/GothamProBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
 
 
 
@@ -7739,7 +7704,7 @@ font-weight:bold;
 }
 #owl-example .owl-prev, #owl-example .owl-next, #clients .owl-prev, #clients .owl-next
 {
-	background: url("images/arrows.png") no-repeat;
+	background: url("../images/arrows.png") no-repeat;
 	width: 46px;
 	height: 46px;
 	color: transparent;
@@ -9394,7 +9359,7 @@ section {
         width: 11px;
         height: 7px;
         margin: 0 0 0 8px;
-        background: url("//avostudio.ru/wp-content/themes/avostudio/images/arrow-down.png") no-repeat center;
+        background: url("arrow-down.png") no-repeat center;
         -webkit-transition: 0.3s ease;
         transition: 0.3s ease; }
         @media (max-width: 1200px) {
@@ -9673,7 +9638,7 @@ position: fixed;*/
 .hamburger__inner::after {
   width: 100%;
   height: 4px;
-  background-color: #ff002a;
+  background-color: #0083c8;
   border-radius: 4px;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
@@ -11885,16 +11850,16 @@ position: fixed;*/
 .mobile.block div.call.block div a{display:inline-block; width:26px; height:25px;}
 .mobile.block div.call.block div {display:inline-block; padding: 0 6px; vertical-align: middle;}
 .mobile.block div.call.block div.telegram a{
-    background: url("/wp-content/themes/avostudio/images/telegram.png") no-repeat 0px 0px;
+    background: url("../images/telegram.png") no-repeat 0px 0px;
     background-size:100% 100%;
 }
 .mobile.block div.call.block div.whatsapp a{
-    background: url("/wp-content/themes/avostudio/images/whatsapp.png") no-repeat 0px 0px;
+    background: url("../images/whatsapp.png") no-repeat 0px 0px;
     background-size:100% 100%;
 }
 .mobile.block div.call.block div.whatsapp{border-right:1px solid #e3e2e2; border-left:1px solid #e3e2e2;}
 .mobile.block div.call.block div.viber a{
-    background: url("/wp-content/themes/avostudio/images/viber.png") no-repeat 0px 0px;
+    background: url("../images/viber.png") no-repeat 0px 0px;
     background-size:100% 100%;
 }
 
